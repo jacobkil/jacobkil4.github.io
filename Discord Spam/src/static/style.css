@@ -1,0 +1,91 @@
+html, body {
+    margin: 0;
+    padding: 10px;
+    background-color: #1a1a1a;
+}
+
+* {
+    font-family: Roboto;
+}
+
+p {
+    color: #808080;
+}
+
+h1, h3 {
+    color: #bfbfbf;
+}
+
+a {
+    text-decoration: none;
+    color: #262626;
+    margin: 10px;
+}
+
+a:hover {
+    color: #595959;
+}
+
+input[type="text"], textarea {
+    padding: 5px;
+    outline: none;
+    background-color: transparent;
+    color: #808080;
+    border: 1.5px solid #808080;
+    border-radius: 5px;
+}
+
+input[type="text"]:focus, textarea:focus {
+    background-color: #404040;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    outline: none;
+    background-color: #808080;
+    color: #262626;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #b3b3b3;
+}
+
+input[type="submit"]:active {
+    background-color: #808080;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper {
+    display: inline-block;
+    min-width: 500px;
+    padding: 10px;
+    background-color: #262626;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bar {
+    margin: -10px;
+    margin-bottom: initial;
+    padding: 10px;
+    background-color: #bfbfbf;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.red {
+    color: #ff3333;
+}
+
+.green {
+    color: #33cc33;
+}
